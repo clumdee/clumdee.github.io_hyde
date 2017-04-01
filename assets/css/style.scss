@@ -11,10 +11,9 @@ header ul {
   width:200px;
 }
 
-header li {
-  display: block;
-  width:200px;
-  height:160px;
+header ul li + li + li + li { 
+  border-right: none; 
+  width: 199px; 
 }
 
 section {
