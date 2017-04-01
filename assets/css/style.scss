@@ -25,5 +25,14 @@ header li {
   height: 40px;
   background: #f4f4f4; 
   border-radius: 5px;
-  border-right: 1px solid #e0e0e0; 
+  border-right: 1px solid #000000; 
+}
+
+header ul li + li + li { 
+  width: 199px; 
+  float: left; 
+  height: 40px;
+  background: #f4f4f4; 
+  border-radius: 5px;
+  border-right: 1px solid #000000; 
 }
