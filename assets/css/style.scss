@@ -3,16 +3,27 @@
 
 @import "{{ site.theme }}";
 
+section {
+  width:600px;
+}
+
 header {
   width:200px;
 }
 
-header ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+header ul { list-style: none; 
+  padding: 0; 
+  background: none; 
+  border-radius: none; 
+  border: none; 
+  width: 200px; 
 }
 
-section {
-  width:600px;
+header li { 
+  width: 199px; 
+  float: left; 
+  height: 40px;
+  background: #f4f4f4; 
+  border-radius: 5px;
+  border-right: 1px solid #e0e0e0; 
 }
