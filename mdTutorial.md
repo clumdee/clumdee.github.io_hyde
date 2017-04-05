@@ -3,7 +3,7 @@ layout: default
 ---
 # Hi there, you are on the Science page!
 
-Chatdanai started 
+Chatdanai started
 
 <a href="/cv/C Lumdee, CV.pdf" target="_blank">About me in a formal format :)</a>
 Text can be **bold**, _italic_, or ~~strikethrough~~.
