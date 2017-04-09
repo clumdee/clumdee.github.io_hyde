@@ -1,10 +1,7 @@
 ---
-layout: default
-title: My bio
+layout: page
+title: About me
 ---
-
-<!-- because of the auto-margin element in css for wrapper, this page shifts a bit compare to others  -->
-# Hi there, you are on _About me_ page!
 
 ## My brief journey :)
 <!-- <img src="HalfMara.jpg" style="float:right;width:140px;" hspace="10"> -->
@@ -21,7 +18,7 @@ As a learning fanatic by nature, I am motivated to develop capabilities in areas
 There are several things I like to do in my free time. For sport and exercise, I go to gym for fitness training, badminton, climbing, hiking, and sometimes running. I also like to read where the categories range from philosophy, entrepreneurship, science, and manga. Watching videos on YouTube is also fun and educational. On top of that, I enjoy learning new software and coding e.g. making this webpage.
 
 ## Research career
-It started when I graduated from the Faculty of Engineering, [Chulalongkorn University](http://www.chula.ac.th/en/) in Thailand with a major in nano engineering. I then took a fellowship from [CREOL/The College of Optics and Photonics](http://www.creol.ucf.edu/) in Orlando, FL to join a PhD program at one of the world’s foremost institutions for research and education in optics and photonics. At CREOL, I worked under the supervision of [Prof. Pieter G. Kik](http://kik.creol.ucf.edu/) where my research focused on optical phenomena at the nanoscale. Upon completion of the degree, I decided to continue my postdoctoral training in another continent and joined a group led by [Prof. Alexandre Dmitriev](https://scholar.google.com/citations?user=uFM2fgcAAAAJ) at [the University of Gothenburg](http://www.gu.se/english)/[Chalmers](http://www.chalmers.se/en/Pages/default.aspx) in Sweden. I am currently working on a highly collaborative EU funded project with the aim to develop a technological platform for the next generation of data storage units through nano-optics and nanomagnetism.
+It started when I graduated from the Faculty of Engineering, [Chulalongkorn University](http://www.chula.ac.th/en/) in Thailand with a major in nano engineering. I then took a fellowship from [CREOL/The College of Optics and Photonics](http://www.creol.ucf.edu/) in Orlando, FL to join a PhD program at one of the world’s foremost institutions for research and education in optics and photonics. At CREOL, I worked under the supervision of [Prof. Pieter G. Kik](http://kik.creol.ucf.edu/) where my research focused on optical phenomena at the nanoscale. Upon completion of the degree, I decided to continue my postdoctoral training in another continent and joined a group led by [Prof. Alexandre Dmitriev](https://scholar.google.com/citations?user=uFM2fgcAAAAJ) at [the University of Gothenburg](http://www.gu.se/english)/[Chalmers](http://www.chalmers.se/en/Pages/default.aspx) in Sweden. I am currently working on a highly collaborative [EU project](http://www.physics.gu.se/english/research/femtoterabyte) with the aim to develop a technological platform for the next generation of data storage units through nano-optics and nanomagnetism.
 
 <div align="right">
     <a href="C Lumdee, CV.pdf">About me in a formal format :)</a><br>

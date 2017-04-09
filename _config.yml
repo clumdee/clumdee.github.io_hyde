@@ -1,3 +1,32 @@
-title: Tua on GitHub
-author: Chatdanai Lumdee
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        /:title
+# relative_permalinks: true
+
+# Setup
+title:            Tua on GitHub
+tagline:          'An online playground'
+description:      'An online playground'
+# url:              http://hyde.getpoole.com
+baseurl:          /
+
+author:
+  name:           'Chatdanai Lumdee (Tua)'
+  # url:            https://twitter.com/mdo
+
+# paginate:         5
+
+# Plugins
+gems:
+  - jekyll-paginate
+
 google_analytics: UA-96590640-1
+
+# Custom vars
+# version:          2.1.0
+
+# github:
+  # repo:           https://github.com/poole/hyde

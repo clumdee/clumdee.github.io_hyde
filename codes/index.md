@@ -1,9 +1,8 @@
 ---
-layout: default
-title: My codes
+layout: page
+title: Happy coding
 ---
 
-# Hi there, you are on _my Codes_ page!
 Example of my codes/programs will be posted.
 
 ## Python

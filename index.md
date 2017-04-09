@@ -1,8 +1,6 @@
 ---
 layout: default
-title: Tua's Home
+title: Home
 ---
 
-# Hi there, you are on my _Home_ page!
-
-Welcome to my Github page! More will be added ...
+Hello there. Welcome to my Github page. More will be added ...

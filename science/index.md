@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: page
+title: Science
 ---
-# Hi there, you are on _Science_ page!
 
-Hopefully I will write something about my research ...
+Something about my research or other interesting science ...
