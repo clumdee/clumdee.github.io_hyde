@@ -3,7 +3,7 @@ layout: page
 title: Happy coding
 ---
 
-Example of my codes/programs will be posted.
+Examples of my codes/programs will be posted.
 
 ## Python
 Some codes ...
@@ -12,7 +12,9 @@ Some codes ...
 Some games ...
 
 ## JavaScript
-A simple clicking game ...
+{% for post in site.categories.code %}
+  * {{ post.date | date_to_string}} » [{{ post.title }}]({{ post.url }} "{{ post.title }}")
+{% endfor %}
 
 ## Blender renders
 Examples of rendered images made in Blender ...
