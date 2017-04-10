@@ -1,5 +1,6 @@
 # Dependencies
-markdown:         redcarpet
+# 'redcarpet' Markdown is no longer support by GitHub 10/04/2017
+# markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
