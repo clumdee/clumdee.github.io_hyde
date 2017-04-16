@@ -9,6 +9,8 @@ My name is Chatdanai Lumdee, or 'Tua'. I am a native Thai grew up in Phitsanulok
 
 Currently, I am a postdoctoral researcher in Sweden.
 
+More details on my education, research, publications, and talks can be found in links at the end of this page.
+
 ## Interests
 I am very enthusiastic in applying my skills and experiences toward creating knowledge-based society driven by research as well as developing and commercialization of advanced photonics-related technologies such as data storage, energy harvesting, photocatalysis, and biomedical devices.
 
@@ -21,8 +23,8 @@ There are several things I like to do in my free time. For sport and exercise, I
 It started when I graduated from the Faculty of Engineering, [Chulalongkorn University](http://www.chula.ac.th/en/) in Thailand with a major in nano engineering. I then took a fellowship from [CREOL/The College of Optics and Photonics](http://www.creol.ucf.edu/) in Orlando, FL to join a PhD program at one of the world’s foremost institutions for research and education in optics and photonics. At CREOL, I worked under the supervision of [Prof. Pieter G. Kik](http://kik.creol.ucf.edu/) where my research focused on optical phenomena at the nanoscale. Upon completion of the degree, I decided to continue my postdoctoral training in another continent and joined a group led by [Prof. Alexandre Dmitriev](https://scholar.google.com/citations?user=uFM2fgcAAAAJ) at [the University of Gothenburg](http://www.gu.se/english)/[Chalmers](http://www.chalmers.se/en/Pages/default.aspx) in Sweden. I am currently working on a highly collaborative [EU project](http://www.physics.gu.se/english/research/femtoterabyte) with the aim to develop a technological platform for the next generation of data storage units through nano-optics and nanomagnetism.
 
 <div align="right">
-    <a href="C Lumdee, CV.pdf">About me in a formal format :)</a><br>
-    <a href="https://www.linkedin.com/in/chatdanai-lumdee">LinkedIn</a><br>
-    <a href="https://scholar.google.se/citations?user=TmGkgT4AAAAJ&hl=en">Google Scholar</a><br>
-    <a href="Thesis_Nanoscale Control of Gap-plasmon Enhanced Optical Processes.pdf">PhD thesis</a><br>
+    <a href="C Lumdee, CV.pdf">Curriculum vitae<img class='image-icon' src='{{ site.url }}/pics/letter.svg'></a><br>
+    <a href="https://www.linkedin.com/in/chatdanai-lumdee">LinkedIn<img class='image-icon' src='{{ site.url }}/pics/linkedin.svg'></a><br>
+    <a href="https://scholar.google.se/citations?user=TmGkgT4AAAAJ&hl=en">Google Scholar<img class='image-icon' src='{{ site.url }}/pics/google.svg'></a><br>
+    <a href="Thesis_Nanoscale Control of Gap-plasmon Enhanced Optical Processes.pdf">PhD thesis<img class='image-icon' src='{{ site.url }}/pics/book.svg'></a><br>
 </div>

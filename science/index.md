@@ -3,4 +3,10 @@ layout: page
 title: Science
 ---
 
-Something about my research or other interesting science ...
+Interesting science where I happen to know enough for discussion ...
+
+{% include image.html
+  img='pics/tshirt_thinking_wait.jpg'
+  title='Thinking, please wait ...'
+  caption='Please wait for a moment. I will be back :)'
+%}
