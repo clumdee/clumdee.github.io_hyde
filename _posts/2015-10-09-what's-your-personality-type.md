@@ -5,6 +5,10 @@ date: 2015-10-09
 categories: blog
 ---
 
+*Originally from my [blogspot](http://tuastories.blogspot.com/2015/10/get-to-know-yourself-try-checking-your.html)*
+
+---
+
 Have you ever wonder why people think or behave in certain ways? Some of them you might like. Some of them, not so much.
 
 The ways people act can be explained (although not entirely) by their personality type.

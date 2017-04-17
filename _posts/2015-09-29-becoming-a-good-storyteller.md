@@ -5,6 +5,10 @@ date: 2015-09-29
 categories: blog
 ---
 
+*Originally from my [blogspot](http://tuastories.blogspot.com/2015/09/blog-writing-step-to-becoming-good.html)*
+
+---
+
 Recently, I have been reading an interesting book, [Finding Success in Failure](http://www.amazon.com/Finding-Success-Failure-Confessions-Craftsman-ebook/dp/B00TACMNTU/ref=pd_sim_351_1?ie=UTF8&amp;refRID=0PRM1Z35BFWGMCZ7KNJM&amp;dpID=517QKDe3RtL&amp;dpSrc=sims&amp;preST=_UX300_PJku-sticker-v3%2CTopRight%2C0%2C-44_AC_UL160_SR104%2C160_) by Lucas Carlson. It is a very charming and inspiring book.
 
 One of the topics in the book is the importance of becoming a good storyteller. Although the book focuses on business startup founders, it establishes a perception that becoming a good storyteller will be beneficial to anyone who has mastered the art of storytelling.
