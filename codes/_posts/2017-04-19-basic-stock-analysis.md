@@ -8,7 +8,7 @@ categories: code_python
 
 ## Visualizing historical stock data
 
-The following code shows how to get historical data of stock from Google Finance and plot a candlestick chart with simple moving average (SMA), exponential moving average (EMA), and Moving Average Convergence Divergence (MACD).
+The following code shows how to get historical data of a stock from Google Finance and plot a candlestick chart with simple moving average (SMA), exponential moving average (EMA), and Moving Average Convergence Divergence (MACD).
 
 The code is an expansion of an answer in this [Stack Overflow thread](http://stackoverflow.com/questions/19580116/plotting-candlestick-data-from-a-dataframe-in-python)
 
@@ -82,13 +82,7 @@ ax3.axhline(0, color='gray', linestyle='--')
 ax3.set_xlabel('Date')
 ax3.set_ylabel('MACD', fontsize=16)
 ax3.legend(loc=4)
-
 ```
-
-
-
-
-    <matplotlib.legend.Legend at 0x15033a5e4a8>
 
 
 
@@ -118,14 +112,15 @@ def fetchGF(googleticker):
     url = "http://www.google.com/finance?&q="
     respData = urllib.request.urlopen(url+ticker).read()
 
-    # search for the tag with ref id of the stock and get the displayed price
-    k=re.search(b'id="ref_(.*?)">(.*?)<', respData)
+    # search for the tag with ref id of the stock and get the displayed price and currency
+    price=re.search(b'id="ref_(.*?)">(.*?)<', respData)
+    currency=re.search(b'Currency in (.*?)<', respData)
 
-    if k:
+    if price:
         # get the price and re-format displayed text
-        # group 1: ref id of the stock in the html page, group 2: price in USD
-        tmp=k.group(2)
-        q=tmp.decode().replace(',','')
+        # group 1: ref id of the stock in the html page, group 2: price
+        tmp=price.group(2)
+        q=tmp.decode().replace(',','') + ' ' + currency.group(1).decode()
     else:
         q="Nothing found for: "+ googleticker
 
@@ -140,9 +135,9 @@ ticker = 'NASDAQ:GOOG'
 print('As of '+ time.ctime() + ' local time, the price of ' + ticker + ' is ' + fetchGF(ticker))
 ```
 
-    As of Wed Apr 19 08:45:51 2017 local time, the price of NASDAQ:GOOG is 836.82
+    As of Wed Apr 19 16:24:20 2017 local time, the price of NASDAQ:GOOG is 841.01 USD
 
 
-### Closing note
+## Closing note
 
 The codes above show basic of requesting historical and real-time stock data as well as plotting charts/indicators. With some effort, the process could be made less tedious and more automated.
