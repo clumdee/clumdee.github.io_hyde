@@ -10,8 +10,9 @@ categories: code_python
 
 The following code shows how to get historical data of a stock from Google Finance and plot a candlestick chart with simple moving average (SMA), exponential moving average (EMA), and Moving Average Convergence Divergence (MACD).
 
-The code is an expansion of an answer in this [Stack Overflow thread](http://stackoverflow.com/questions/19580116/plotting-candlestick-data-from-a-dataframe-in-python)
+The code is an expansion of an answer in this [Stack Overflow thread](http://stackoverflow.com/questions/19580116/plotting-candlestick-data-from-a-dataframe-in-python).
 
+*The code is written in python 3.5.2*.
 
 ```python
 # import necessary libraries
@@ -22,7 +23,6 @@ import pandas_datareader.data as web
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib import dates as mdates
-from matplotlib import ticker as mticker
 from matplotlib.finance import candlestick_ohlc
 import datetime as dt
 ```
@@ -94,13 +94,13 @@ ax3.legend(loc=4)
 
 The code below shows how to get real-time data of a stock from Google Finance page.
 
-It is a modified version of files from this [Github repository](https://github.com/keevee09/hacking-google-finance-in-real-time)
+It is a modified version of files from this [Github repository](https://github.com/keevee09/hacking-google-finance-in-real-time).
 
 
 ```python
 # import libraries
 
-import urllib.request, time, os, re, csv
+import urllib.request, time, re
 ```
 
 
@@ -132,10 +132,10 @@ def fetchGF(googleticker):
 # pick stock and display the current price
 ticker = 'NASDAQ:GOOG'
 
-print('As of '+ time.ctime() + ' local time, the price of ' + ticker + ' is ' + fetchGF(ticker))
+print('As of '+ time.ctime() + ' local time, the price of ' + ticker + ' is ' + fetchGF(ticker) + '.')
 ```
 
-    As of Wed Apr 19 16:24:20 2017 local time, the price of NASDAQ:GOOG is 841.01 USD
+    As of Wed Apr 19 16:24:20 2017 local time, the price of NASDAQ:GOOG is 841.01 USD.
 
 
 ## Closing note
