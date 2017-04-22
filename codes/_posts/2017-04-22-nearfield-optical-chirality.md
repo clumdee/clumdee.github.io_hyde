@@ -5,7 +5,7 @@ date: 2017-04-22
 categories: code_python
 ---
 
-*The code was originally written in June 2016*
+*The code was originally written in June 2016.*
 
 ## Near-field optical chirality
 
