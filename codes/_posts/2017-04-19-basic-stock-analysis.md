@@ -8,7 +8,7 @@ categories: code_python
 
 ## Visualizing historical stock data
 
-The following code shows how to get historical data of a stock from Google Finance and plot a candlestick chart with simple moving average (SMA), exponential moving average (EMA), and Moving Average Convergence Divergence (MACD).
+The following code shows how to get historical data of a stock from [Google Finance](https://www.google.com/finance) (or [Yahoo Finance](https://finance.yahoo.com/)) and plot a candlestick chart with simple moving average (SMA), exponential moving average (EMA), and Moving Average Convergence Divergence (MACD).
 
 The code is an expansion of an answer in this [Stack Overflow thread](http://stackoverflow.com/questions/19580116/plotting-candlestick-data-from-a-dataframe-in-python).
 
@@ -27,9 +27,9 @@ from matplotlib.finance import candlestick_ohlc
 import datetime as dt
 ```
 
-
+### Getting data from web
 ```python
-# requesting and reformatting data
+# request and reformat data
 
 symbol = "AAPL"
 data = web.DataReader(symbol, 'google', '2015-12-31', end = dt.datetime.now())  # use 'google' or 'yahoo' to pick the data source
@@ -37,9 +37,9 @@ data.reset_index(inplace=True)
 data['Date']=mdates.date2num(data['Date'].astype(dt.date))
 ```
 
-
+### Define moving average models to plot
 ```python
-# calculating and setting plot parameters
+# setup moving average models
 
 x = data['Date']
 
@@ -55,9 +55,9 @@ SMA_2 = data['Close'].rolling(window=SMA_2_span,center=False).mean()
 MACD = EMA_1 - EMA_2
 ```
 
-
+### Plot stock data
 ```python
-# plotting
+# plot
 
 fig, (ax, ax2, ax3) = plt.subplots(3, sharex=True, figsize=(10,12))
 
@@ -103,7 +103,7 @@ It is a modified version of files from this [Github repository](https://github.c
 import urllib.request, time, re
 ```
 
-
+### Create a function to call stock data from Google Finance
 ```python
 # define data acquisition function
 
@@ -127,7 +127,7 @@ def fetchGF(googleticker):
     return q
 ```
 
-
+### Call and display real-time price of a selected stock
 ```python
 # pick stock and display the current price
 ticker = 'NASDAQ:GOOG'
