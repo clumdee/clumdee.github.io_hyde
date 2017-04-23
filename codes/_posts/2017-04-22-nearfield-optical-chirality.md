@@ -28,6 +28,7 @@ The code was developed based on two articles: [M. Schaferling, OptEx 2012](https
 
 ### Import libraries
 The *chital_local* function is home-written and is provided [here]({{ page.url }}_note).
+
 ```python
 %matplotlib notebook
 
@@ -38,7 +39,6 @@ import matplotlib.pyplot as plt
 
 
 ```python
-# import an external function to calculate local chiral field
 # the function excludes intrinsic chiral field from the incident field
 from chiral_local import chiral_local
 ```
@@ -53,8 +53,8 @@ The necessary parameters are passed to the calculation as ***incWave***.
 freq = 500e12              # set the frequency of the incident field e.g. 500 THz (600nm wavelength)
 omega = 2*np.pi*freq
 c = 3e8                    # speed of light in m/s
-k = omega/c                # (+ or -)? ANS: + because the direction is accounted for when do k <cross> E
-psiDeg = -45               # set psiDeg=45 to have |E_x|=|E_y|, changing the sign (+ or -) also results in changing the handedness when using an elliptical incident field
+k = omega/c               
+psiDeg = -45               # e.g. set psiDeg=45 to have |E_x|=|E_y|, changing the sign (+ or -) results in changing the handedness when using an elliptically incident field
 psi = psiDeg/180*np.pi
 
 incWave=[k, psi]
