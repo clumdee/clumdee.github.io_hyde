@@ -157,4 +157,4 @@ ax.view_init(elev=45, azim=45)
 ```
 
 
-![png]({{ site.url }}/pics/nearfield-chirality.png)
+![png]({{ site.url }}/pics/nearfield-chirality_animated.gif)
