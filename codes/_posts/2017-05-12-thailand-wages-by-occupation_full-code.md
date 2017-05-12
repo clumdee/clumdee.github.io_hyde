@@ -9,7 +9,7 @@ categories: code_python
 
 **Sources**: [Bank of Thailand](https://www.bot.or.th/Thai/Statistics/Pages/default.aspx) (*EC_RL_018* for average salaries by occupation, *EC_RL_012* for number of wokers by occupation, and *EC_EI_027* for inflation)
 
-**Disclaimer**: As my background in economics is limited, some terms/parameters might not be used/defined properly. Please let me know if there are parts that require fixing and clarification.
+**Disclaimer**: As my background in economics is limited, some terms/parameters might not be used/defined properly. Please let me know if there are parts that require fixing or clarification.
 
 If you are not interested in seeing codes, please click [here]({{ site.url }}/thailand-wages-by-occupation) for a page with only discussions and plots.
 
