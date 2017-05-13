@@ -157,7 +157,7 @@ df.head()
 
 Only data from quarter 4 is presented as annual data in the heatmap plot below.
 
-The plot show that the grop of *Legislator, senior officials, managers* consistently has the higest average salary while the groups of *Skilled agricultural/fishery workers* and *Elementary occupations* always stay at the bottom.
+The plot shows that the grop of *Legislators, senior officials, managers* consistently has the higest average salary while the groups of *Skilled agricultural/fishery workers* and *Elementary occupations* always stay at the bottom.
 
 
 ```python
@@ -179,11 +179,11 @@ plt.show()
 
 ## Comparing jobs with low and high salary
 
-The difference in salary between the groups with the lowest and highest average salaries is drastic. In the starting period of the survey data, the salary of the latter group was 10 times higher than that of the former.
+The difference in salary between the groups with the lowest and highest average salaries is drastic. In the beginning period of the data, the salary of the latter group was 10 times higher than that of the former.
 
-Looking more closely, however, reveals that the group with low salary does better in terms of salary growth. The low salary group shows consistent increase in salary while the latter experienced some fluctation during the years.
+Looking more closely, however, reveals that the group with low salary does better in terms of salary growth. The low salary group shows consistent increase in salary while the latter experienced some fluctuation during the years.
 
-By the end of the survay, the ratio between salaries of the groups with the higest and lowest average salary has reduced to 5 times. In terms of trend, the average salary of all groups of workers resembles that of the group with lower salary because there are more workers in these groups compared to the groups with high salary. It is a separate data set but charts showing the distribution of number of workers in different occupations in 2001 and 2016 are provided [here]({{ site.url }}/pics/TH_AverageWagesByOccupation/workers-distribution.png) for a quick look.
+At the end of the data, the ratio between salaries of the groups with the highest and lowest average salary has reduced to 5 times. In terms of trend, the average salary of all groups of workers resembles that of the group with lower salary because there are more workers in these groups compared to workers in groups with high salary. For a quick check, [here]({{ site.url }}/pics/TH_AverageWagesByOccupation/workers-distribution.png) is a chart plotted using a separate dataset showing the distribution of number of workers in different occupations in 2001 and 2016.
 
 
 ```python
@@ -212,9 +212,9 @@ plt.show()
 
 From the previous observation, it is interesting to see how the growth rates of salary of workers in different occupations perform comparing to the country's inflation rate (headline inflation).
 
-The heatmap plot below shows that the *Others* group acutally suffers the most regarding fluctuation of salary growth. The *Legislator, senior officials, managers* group with the highest salary comes in as the second that suffer from this fluctuation. The growth rate of salary of each groups decreases with average salary and follows the trend of inflation.
+The heatmap plot below shows that the *Others* group suffers the most regarding fluctuation in salary growth. The *Legislators, senior officials, managers* group with the highest salary comes in as the second that suffers from strong fluctuation. The growth rate of salary of each groups decreases with average salary and becomes more similar to the trend of inflation.
 
-This makes sense as most of workers in the workforce are in the groups with low average salary and their collective spending contributes more toward the country's economy compared to people in the groups with high salary.
+This makes sense as most of workers in the workforce are in groups with low average salary and their collective spending contributes more toward the country's economy compared to people in the groups with high salary.
 
 
 ```python
@@ -235,7 +235,7 @@ plt.show()
 
 ## Spending power (normalized to itself in 2001 and accumulated inflation)
 
-One way to see how individual workers experience the value of their income is to look at changes in normalized spending power. In this case the spending power for each category is defined as follows.
+One way to see how individual workers experience the value of their income is to look at changes in normalized spending power. In this case the spending power for each job category is defined as follows.
 
 $$ Power(Year) = \dfrac{Income(Year)}{Income(2001) \times Acc_{inflat}(Year)} $$
 
@@ -272,11 +272,11 @@ plt.show()
 
 ## Comparing spending power
 
-The spending power heatmap shows that workers in most occupations have increased spending power compare to theirs in 2001. Interestingly the data reveals that groups of workers with high salary experiences less increase or even decrease spending power over time.
+The spending power heatmap shows that workers in most occupations have increased spending power compare to theirs in 2001. Interestingly the data reveals that groups of workers with high salary experiences less increase or even decrease in their spending power over time.
 
-The two groups that see reduction in their spending over this period are *Ligislator, seniors, managers* and *Others*. Theses two are groups with the highest and the third highest average salary.
+The two groups that see reduction in their spending over this period are *Legislators, seniors, managers* and *Others*. Theses two are groups with the highest and the third highest average salaries.
 
-The groups that see the highest and the second highest increase in their spending power are *Elementary occupations* and *Skilled agricultural/fishery workers*, respectively. They are the groups with the second lowest and the lowest average salary of this 16-year period dataset.
+The groups that see the highest and the second highest increase in their spending power are *Elementary occupations* and *Skilled agricultural/fishery workers*, respectively. They are the groups with the second lowest and the lowest average salaries of this 16-year period dataset.
 
 ```python
 ax = power_2001.iloc[:,[-2,6,1,-1,0]].plot(title='Jobs with the highest increase and decrease in spending power', style=['--o','--s','--^','--v','-k'])
@@ -298,7 +298,7 @@ plt.show()
 
 ## Summary and discussions
 
-From the data, it can be seen that average salaries of workers in Thailand in all occupations have increased over the past 16 years. The growth rates, however, differ from occupation to occupation where occupations with high average salary experience pronounced fluctuation in growth rates. When taking into account the inflation rate, workers in the groups with low average salary see consistent increase in their spending power over the length of the dataset. This increase is smaller for groups with higher average salary, and two of them see their spending power decrease.
+The data shows that average salaries of workers in Thailand in all occupations have increased over the past 16 years. The growth rates, however, differ from occupation to occupation where occupations with high average salary experience pronounced fluctuation in growth rates. When taking into account the inflation rate, workers in groups with low average salary see consistent increase in their spending power over the length of the dataset. This increase is smaller for groups with higher average salary, and two of them even see their spending power decrease.
 
 
 ### Choosing a job?
@@ -307,9 +307,9 @@ Based on the observed trend, a compromise between growth or income is inevitable
 
 ### Business targets
 
-Business that targets people with high salary might have to consider adjusting their long term strategies to focus more on workers in groups with lower average salary because they are likely to spend more. In addition, changes in distribution of workers in 2001 and 2016 do not reflect significant shift in percentage of people working in jobs with high and low average salary (although there is significant reduction/increase of people in *Skilled agriculture/fishery workers* and *Service/sales workers*, respectively); this means they will continue to be the majority for quite sometime
+Business that targets people with high salary might have to consider adjusting their long term strategies to focus more on workers in groups with lower average salary because they are more likely to increase their spending. In addition, changes in distribution of workers in 2001 and 2016 do not reflect significant shift in percentage of people working in jobs with high and low average salary (although there is significant reduction/increase of people in *Skilled agriculture/fishery workers* and *Service/sales workers*, respectively); this means they will continue to be the majority for quite sometime
 
 
 ## Closing notes
 
-The data and discussions above do not present the state of economy of Thailand as a whole. For that, additional indicators have to be analyzed such as an inflation rate (lower than 2% since 2014, and negative in 2015) and an unemployment rate.
+The data and discussions above do not present the state of economy of Thailand as a whole. For that, additional indicators have to be considered such as an inflation rate (lower than 2% since 2014, and negative in 2015) and an unemployment rate.
