@@ -303,7 +303,7 @@ The data shows that average salaries of workers in Thailand in all occupations h
 
 ### Choosing a job?
 
-Based on the observed trend, a compromise between growth or income is inevitable. Note that the data represents **'average'** salaries. Top people in all categories definitely earn much higher.
+Based on the observed trend, a compromise between growth and income is inevitable. Note that the data represents **'average'** salaries. Top people in all categories definitely earn much higher.
 
 ### Business targets
 

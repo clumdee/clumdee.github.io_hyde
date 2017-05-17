@@ -13,9 +13,6 @@ categories: blog
 
 The following sections only contains discussions and plots. If you are interested in seeing the code, please click [here]({{ site.url }}/thailand-wages-by-occupation_full-code).
 
-เดี๋ยวจะเรียบเรียงหน้าเวบเป็นภาษาไทยแล้วมาแปะไว้ด้วยครับ
-
-
 ## First few rows of core data
 
 The table below shows that the data of average salaries (Thai Baht/month) was collected by quarter and separates occupations into ten categories.
@@ -197,7 +194,7 @@ The data shows that average salaries of workers in Thailand in all occupations h
 
 ### Choosing a job?
 
-Based on the observed trend, a compromise between growth or income is inevitable. Note that the data represents **'average'** salaries. Top people in all categories definitely earn much higher.
+Based on the observed trend, a compromise between growth and income is inevitable. Note that the data represents **'average'** salaries. Top people in all categories definitely earn much higher.
 
 ### Business targets
 
