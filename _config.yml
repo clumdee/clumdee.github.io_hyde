@@ -6,7 +6,7 @@ permalink:        /:title
 title:            Tua on GitHub
 tagline:          'An online playground'
 description:      'An online playground'
-# url:
+url:              "https://clumdee.github.io/"
 # baseurl:          
 
 author:
