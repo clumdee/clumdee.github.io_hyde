@@ -7,7 +7,7 @@ title:            Tua on GitHub
 tagline:          'An online playground'
 description:      'An online playground'
 # url:
-baseurl:          "https://clumdee.github.io"
+baseurl:          "https://clumdee.github.io/"
 
 author:
   name:           'Chatdanai Lumdee (Tua)'
