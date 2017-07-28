@@ -5,13 +5,11 @@ date: 2017-07-28
 categories: code_python
 ---
 
-**Credit**:  
-The content is inspired by [*Let’s Build the Tiniest Blockchain*](https://medium.com/crypto-currently/lets-build-the-tiniest-blockchain-e70965a248b) by Gerald Nash. The code presented here is an expansion of what provided in the original article.
-
-**ขอบคุณ**:  
+**คำขอบคุณ**:  
 เนื้อหาที่เขียนขึ้นได้รับแรงบันดาลใจจากบทความ [*Let’s Build the Tiniest Blockchain*](https://medium.com/crypto-currently/lets-build-the-tiniest-blockchain-e70965a248b) โดย Gerald Nash ซึ่งตัว code ที่ผมเขียนนั้นสร้างต่อจาก code ที่นำเสนอไว้ในบทความดังกล่าว
 
-
+**Credit**:  
+The content is inspired by [*Let’s Build the Tiniest Blockchain*](https://medium.com/crypto-currently/lets-build-the-tiniest-blockchain-e70965a248b) by Gerald Nash. The code presented here is an expansion of what provided in the original article.
 
 ## บทนำ
 ณ เวลานี้กระแสเรื่อง blockchain กำลังได้รับการพูดถึงอย่างมาก มีการคาดหมายว่าเทคโนโลยีนี้จะเปลี่ยนรูปแบบการดำเนินงานของหลายภาคส่วน ทั้งภาครัฐและเอกชน ตัวอย่างเช่น ภาคการเงินที่สร้างสกุลเงินที่มีระบบบัญชีกลางเพื่อกระจายความน่าเชื่อถือ (เช่น [BitCoin](https://www.bitcoin.com/), [Ethereum](https://www.ethereum.org/), [IOTA](https://iota.org/)), ระบบบันทึกข้อมูลและแหล่งที่มาของสินค้า, ระบบการเลือกตั้งออนไลน์, ระบบบัญชีตรวจสอบการใช้จ่ายงบประมาณของรัฐบาล, และอีกมากมาย
