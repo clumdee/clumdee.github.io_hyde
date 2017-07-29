@@ -487,10 +487,9 @@ block_table.sample(10)
 
 from graphviz import Digraph
 
-# Create a Digraph element 'dot'
+# Create a Digraph element 'new_dot'
 new_dot = Digraph(comment='blockchain')
 new_dot.attr(rankdir='BT')
-# dot.attr(rankdir='RL')
 
 # Construct a diagram by spelling all the edges that connect the nodes
 for i in range(1, num_of_blocks_to_add+1):
