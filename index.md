@@ -7,7 +7,7 @@ title: Home
 
 Welcome to my Github page, a playground where I practice skills in web-technology.
 
-Here I share [my journey as a scientist and personal interests]({{ site.url }}/about), as well as [blogs]({{ site.url }}/blog) and examples of my expertise in [software and coding]({{ site.url}}/codes ).
+Here I share [my journey as a scientist and personal interests]({{ site.url }}/about), as well as [blog posts]({{ site.url }}/blog) and examples of my expertise in [software and programming]({{ site.url }}/codes).
 
 {% include image.html
   img='pics/Me_doing_SEM.png'

@@ -7,9 +7,11 @@ title: About me
 <!-- <img src="HalfMara.jpg" style="float:right;width:140px;" hspace="10"> -->
 My name is Chatdanai Lumdee, or 'Tua'. I am a native Thai grew up in Phitsanulok, a city 400 km to the north of Bangkok. During high school, my sister gave me a book, [The Next Big Thing Is Really Small](https://www.amazon.com/Next-Thing-Really-Small-Nanotechnology/dp/1400046890), which initiated my interest nanoscience. This serves as a reference point leading to my career in the field where I later developed a specialty in nanophotonics.
 
-Currently, I am a postdoctoral researcher in Sweden.
+Currently, I am a postdoctoral researcher in Sweden working on projects that combine nanophotonics and magnetism.
 
-More details on my education, careers, publications, and talks can be found in links at the end of this page.
+I recently developed a keen interest in data science where I have been teaching myself using resources from various places such as [GitHub](https://github.com/), [Stack Overflow](https://stackoverflow.com/), [YouTube](https://www.youtube.com/), [Medium](https://medium.com/), and other blog posts. I have conducted [personal projects]({{ site.url }}/codes) in topics related to data science including [data analysis]({{ site.url }}/thailand-wages-by-occupation_full-code), [blockchain]({{ site.url }}/blockchain-DIY-with-python), and recommender systems. Although, some of them are available only in Thai at the moment.
+
+More details on my education, careers, publications, and talks can be found in links at the end of this page. Some of presentations I delivered are available [here]({{ site.url }}/science).
 
 ## Interests
 I am very enthusiastic in applying my skills and experiences toward creating knowledge-based society driven by research as well as developing and commercialization of advanced photonics-related technologies such as data storage, energy harvesting, photocatalysis, and biomedical devices.
