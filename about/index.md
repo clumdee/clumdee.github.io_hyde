@@ -9,7 +9,7 @@ My name is Chatdanai Lumdee, or 'Tua'. I am a native Thai grew up in Phitsanulok
 
 Currently, I am a postdoctoral researcher in Sweden working on projects that combine nanophotonics and magnetism.
 
-I recently grew a keen interest in data science where I have been teaching myself using resources from various places such as [GitHub](https://github.com/), [Stack Overflow](https://stackoverflow.com/), [YouTube](https://www.youtube.com/), [Medium](https://medium.com/), and other blog posts. I have conducted [personal projects]({{ site.url }}/codes) in topics related to data science including [data analysis]({{ site.url }}/thailand-wages-by-occupation_full-code), [blockchain]({{ site.url }}/blockchain-DIY-with-python), and recommender systems. Some of them are available only in Thai at the moment.
+I recently grew a keen interest in data science where I have been teaching myself using resources from various places. I have conducted [personal projects]({{ site.url }}/codes) in topics related to data science including [data analysis]({{ site.url }}/thailand-wages-by-occupation_full-code), [blockchain]({{ site.url }}/blockchain-DIY-with-python), and recommender systems. Some articles are available only in English or in Thai at the moment, but the codes were commented and annotated in English.
 
 More details on my education, careers, and publications can be found in links at the end of this page. Some of presentations I delivered are available [here]({{ site.url }}/science).
 
