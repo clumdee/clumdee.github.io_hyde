@@ -87,7 +87,7 @@ ax3.legend(loc=4)
 
 
 
-![png]({{ site.url }}/pics/basicStockAnalysis.png)
+![png]({{ site.url }}/pics/basicStockAnalysis/01.png)
 
 
 ## Obtaining real-time stock price from Google Finance
