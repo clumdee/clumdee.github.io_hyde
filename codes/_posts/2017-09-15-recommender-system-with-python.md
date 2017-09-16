@@ -422,7 +422,7 @@ print('Initial cost value:', cost_cal(initial_X_and_theta, model_norm, rand_movi
     Initial cost value: 1618.24393218
 
 
-## Optimzation of predictions (ขั้นตอนเพิ่มความแม่นยำของค่าคาดการณ์)
+## Optimization of predictions (ขั้นตอนเพิ่มความแม่นยำของค่าคาดการณ์)
 
 เมื่อเรารู้การคิด cost function แล้ว คำถามต่อไปคือ เราจะทำอย่างไรที่จะลดค่า cost function นี้ โดยมีจุดมุ่งหมายว่า เมื่อ cost function ลดลง ค่าคาดการณ์คะแนนภาพยนตร์ \\(\textbf{P}\\) นั้น จะมีความใกล้เคียงกับ คะแนนภาพยนตร์จริง \\(\textbf{R}\\) มากขึ้น
 
@@ -489,7 +489,7 @@ min_res = minimize(cost_cal, initial_X_and_theta, args=(model_norm, rand_movie_s
 print('Initial cost value:', cost_cal(initial_X_and_theta, model_norm, rand_movie_size, rand_user_size, n_features, reg_param))
 
 # final gradient array
-print('Optimized cost value', min_res.fun)
+print('Optimized cost value:', min_res.fun)
 
 # initial gradient array
 n_display = 5
@@ -501,7 +501,7 @@ print('Examples of optimized gradient values (first %d elements): ' % n_display)
 print(min_res.jac[:n_display])
 ```
     Initial cost value: 1618.24393218
-    Optimized cost value 56.179139143608026
+    Optimized cost value: 56.179139143608026
     Examples of initial gradient values (first 5 elements):
     [ 1.07023315  5.28250733  1.00998325  5.10467215  0.67670311]
     Examples of optimized gradient values (first 5 elements):
